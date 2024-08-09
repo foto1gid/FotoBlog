@@ -3,62 +3,96 @@
     --second-family: "Ubuntu" ;
 }
 
-ul { 
+body {
+    font-family: "Playfair Display" , serif ;
+}
+
+ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
-    color: rgba(125, 125, 125, 1);
+
 }
 
 a:hover {
-    color: rgb(69, 69, 240);
+    color: blue;
 }
 
-span {
-    font-family: var(--second-family);
-font-weight: 300;
-font-size: 14px;
-color: #b4ad9e;
+.container {
+    width: 906px;
+    padding: 0 ;
+    margin: 0 auto;
+}
 
+.main {
+    margin-bottom: 94px;
+}
 
+.header-list {
+    display: flex;
+    gap: 100px;
+    padding-top: 71px ;
+    padding-bottom: 92px ;
+    justify-content: center;
+
+}
+
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 126px;
+    column-gap: 65px;
+    padding: 0;
+    margin: 0;
 }
 
 
 
-.nav {
-    font-family: var(--font-family) ;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+/* .main-item {
+    margin: 32px;
+} */
+
+.main-item img {
+    margin-bottom: 62px;
+}
+
+.main-wrapper {
+    width: 420px;
+}
+
+.main-wrapper span {
+    margin-bottom: 32px;
+    display: block;
+}
+
+.main-wrapper h2 {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.main-wrapper p {
+    margin: 0;
+}
+
+.container.foot {
+    text-align: center;
 
 }
 
-h2 {
-    font-family: var(--font-family);
+.container.foot button {
+    width: 165px;
+height: 60px;
+font-family: var(--font-family);
 font-weight: 400;
-font-size: 30px;
-color: #626262;
-}
-
-p {
-    font-family: var(--font-family);
-font-weight: 400;
 font-size: 14px;
 color: #626262;
+border: 1px solid #626262;
+cursor: pointer;
 }
 
-
-
-
-button {
-    background-color: white;
-    border: 10;
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-color: #626262;
+.container.foot button:hover {
+    background-color: #f3db98;
+    color: #ffffff;
 }
-
-
